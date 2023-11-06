@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box">
+
+
+
+<h1>Secret Santa</h1>
+<ul>
+    {% for secret in secrets %}
+    <li>{{secret}}</li>
+    {% endfor %}
+</ul>
+</div>
+</body>
+</html>
+
+<style>
+    body {
+        background-image: url("https://wallpapercave.com/wp/q09149j.jpg");
+        background-size: cover;
+        font-style: italic;
+    }
+    h1 {
+        color: blue;
+    }
+    .box {
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        color: white
+    }
+
+</style>
